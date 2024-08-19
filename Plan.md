@@ -6,5 +6,5 @@
 - Annotate and form a component tree ✅
 - Set up vite server ✅
 - Create semantic components:
-    - Header
+    - Header ✅
     - Footer
