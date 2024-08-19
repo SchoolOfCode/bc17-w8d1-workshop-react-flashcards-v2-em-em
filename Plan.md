@@ -7,4 +7,7 @@
 - Set up vite server ✅
 - Create semantic components:
     - Header ✅
+    - Footer ✅
+- style the components 
+    - header
     - Footer
