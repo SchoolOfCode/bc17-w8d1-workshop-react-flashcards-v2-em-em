@@ -8,7 +8,7 @@ export default function Footer () {
         <footer className={styles.footer}>
             <p>
                 Built with React 
-                <img src = {reactLogo} alt = 'React Logo'></img>
+                <img className = {styles.footerImage} src = {reactLogo} alt = 'React Logo'></img>
             </p> 
         </footer>
     );
