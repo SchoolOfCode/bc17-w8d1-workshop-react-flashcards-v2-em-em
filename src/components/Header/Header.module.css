@@ -1,5 +1,14 @@
 .siteHeader {
     display: block;
     width: 100%;
+    padding: 2rem;
 }
 
+.logo{
+    /* transform: scale(2.5); */
+    height: 4rem;
+}
+
+.siteTitle {
+    margin: 1rem 0;
+}
