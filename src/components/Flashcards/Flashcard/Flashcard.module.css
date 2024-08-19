@@ -1,5 +1,14 @@
 .flashcard {
-    height: 4rem;
-    width: 4rem;
+    height: 10rem;
+    width: 14rem;
     background-color: aqua;
+
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.text {
+    
 }
