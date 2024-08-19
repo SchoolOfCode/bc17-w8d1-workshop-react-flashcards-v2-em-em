@@ -1,10 +1,10 @@
 import styles from './Flashcards.module.css';
 
 
-const Flashcards = () => {
+export default function Flashcards() {
     return (
-			<section className={styles.FlashcardsContainer}>
-				<ul>
+			<section className={styles.flashcardsContainer}>
+				<ul className={styles.flashcardList}>
 					<li>
 						<h2>Flashcard</h2>
 					</li>

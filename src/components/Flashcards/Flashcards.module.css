@@ -1,0 +1,8 @@
+.flashcardsContainer {
+    display:flex;
+    background-color: aquamarine;
+}
+
+.flashcardsList {
+    display: flex;
+}
