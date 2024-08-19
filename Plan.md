@@ -9,5 +9,7 @@
     - Header ✅
     - Footer ✅
 - style the components 
-    - header
-    - Footer
+    - header ✅
+    - Footer ✅
+- create flashcards component to hold flashcard in
+- create a flashcard component
