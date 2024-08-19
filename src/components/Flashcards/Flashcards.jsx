@@ -1,18 +1,19 @@
 import styles from './Flashcards.module.css';
+import Flashcard from './Flashcard/Flashcard';
 
 
 export default function Flashcards() {
     return (
 			<section className={styles.flashcardsContainer}>
-				<ul className={styles.flashcardList}>
+				<ul className={styles.flashcardsList}>
 					<li>
-						<h2>Flashcard</h2>
+						<Flashcard />
 					</li>
 					<li>
-						<h2>Flashcard</h2>
+						<Flashcard />
 					</li>
 					<li>
-						<h2>Flashcard</h2>
+						<Flashcard />
 					</li>
 				</ul>
 			</section>
