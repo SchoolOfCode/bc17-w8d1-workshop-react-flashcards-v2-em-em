@@ -1,10 +1,17 @@
-import styles from './Flashcard.module.css';
+import styles from "./Flashcard.module.css";
 
-export default function Flashcard () {
-    return (
-        <div className = {styles.flashcard}>
-            <p className = {styles.emoji}>🤔</p>
-            <p className = {styles.text}>What is JSX?</p>
-        </div>
-    );
+export default function Flashcard({ question, answer }) {
+	return (
+		<>
+			<div className={styles.flashcard}>
+				<p className={styles.emoji}>🤔</p>
+				<p className={styles.text}>{question} </p>
+			</div>
+
+			<div className={styles.flashcard}>
+				<p className={styles.emoji}>🤔</p>
+				<p className={styles.text}>{answer} </p>
+			</div>
+		</>
+	);
 }
