@@ -1,17 +1,29 @@
+import {useState} from "react";
 import styles from "./Flashcard.module.css";
 
 export default function Flashcard({ question, answer }) {
+
+	const [isFlipped, setIsFlipped] = useState(false);
+	function handleClick() {
+		setIsFlipped(!isFlipped);
+	}
 	return (
 		<>
-			<div className={styles.flashcard}>
+		{isFlipped ? (
+		<li onClick={handleClick}> 
+			<div className={styles.question}>
 				<p className={styles.emoji}>🤔</p>
-				<p className={styles.text}>{question} </p>
+				<p className={styles.text}>{question}</p>
 			</div>
-
-			<div className={styles.flashcard}>
-				<p className={styles.emoji}>🤔</p>
-				<p className={styles.text}>{answer} </p>
+		</li>
+	) : (
+		 <li onClick={handleClick}>
+			<div className={styles.answer}>
+				<p className={styles.emoji}>🤯</p>
+				<p className={styles.text}>{answer}</p>
 			</div>
+		</li>)
+		}
 		</>
 	);
 }

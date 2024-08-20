@@ -1,8 +1,12 @@
 .flashcardsContainer {
     display:flex;
-    background-color: aquamarine;
+    background-color: #232731;
+    padding: 2rem;
 }
 
 .flashcardsList {
     display: flex;
+    width:100%;
+    list-style: none;
+    justify-content: space-around;
 }

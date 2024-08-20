@@ -1,8 +1,25 @@
-.flashcard {
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 10rem;
     width: 14rem;
     background-color: aqua;
+    border-radius: 1rem;
+    color: black;
+}
 
+.answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 14rem;
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+    color: black;
 }
 
 .emoji {

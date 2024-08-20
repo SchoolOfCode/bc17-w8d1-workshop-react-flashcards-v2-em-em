@@ -6,7 +6,13 @@ import Flashcards from "./components/Flashcards/Flashcards"
 
 function App() {
 
-  const questionCards = [
+	// User submits data in a form <Form />
+	// This is stored in state in app.jsx
+	// This data will be looped through in <Flashcards /> to create as many <Flashcard />s as there are objects in the array
+
+
+
+  const [questionCards, setQuestioncards] = useState([
 		{
 			question: "What is React?",
 			answer: "A small JS library",
@@ -19,12 +25,12 @@ function App() {
 			question: "How do you create a React component?",
 			answer: "We can create a component by capitalizing a Function",
 		},
-	];
+	]);
 
 	return (
 		<>
 			<Header />
-      <Flashcards />
+      		<Flashcards questioncards={questionCards} />
 			<Footer />
 		</>
 	);
